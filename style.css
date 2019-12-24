@@ -1,0 +1,259 @@
+.container {
+  position: relative;
+  width: 200mm;  
+  height: 290mm; 
+  margin: 0 auto; 
+  color: #555555;
+ /* background-color: #FFD800;*/
+  background-color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;  
+  border: 5px double #888;
+}
+
+div.para1{
+  width:100%;  
+  text-align:center;
+  color:#000;
+  margin-top: 2px;  
+  line-height: 7px;
+}
+
+div.para1 p{  
+  font-size:14px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+div.heading1 h1{ 
+  font-size:28px;
+  font-weight: bold;
+  margin-left: -155px;
+}
+
+div.heading1 h3{ 
+  margin-left:-155px;
+}
+
+div.imglog{
+width:20%;
+float: left;
+}
+
+div.imglog img{
+width:auto;
+height: 80px;
+float: right;
+}
+
+div.heading1{
+width:79%;
+float: left;
+}
+
+div.terminal{
+    width:100%;
+    text-align: center;
+}
+
+div.first{
+    width:25%;
+    color:#fff;
+    background-color: dimgray;
+    margin:auto;
+    font-size: 18px;
+}
+
+div.para2{
+  width:100%;
+  margin-bottom: 10px;
+}
+
+div.para2 table{ 
+  width: 100%;
+  padding:10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin:5px;
+  text-align: left;
+}
+
+div.para3{
+  width:100%;
+}
+
+div.para3 table{ 
+  width: 98%;
+  padding:4px;
+  font-size: 13px;
+  margin:auto;
+  border:1px solid #000;
+}
+
+div.para3 table th{  
+  padding:2px;
+  font-size: 13px;
+  font-weight: bold;
+  text-align:center;
+  border:1px solid #000;
+}
+
+div.para3 table tbody tr td{
+/*    border:1px solid #000;*/
+    text-align: center;
+    padding:2px;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    
+}
+
+
+table { 
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin:auto;
+}
+
+table th {
+  white-space: nowrap;       
+  font-weight: bold;   
+}
+
+table td {
+ color: #000000;
+}
+
+div.para4{
+  margin-top:5px;
+}
+
+
+div.para4 table{
+  width: 98%;
+  margin:auto;  
+  border:1px solid #000; 
+
+}
+
+div.para4 table th{
+  text-align: left;
+  padding-left: 5px;
+  border:1px solid #000; 
+  font-size: 13px;    
+}
+
+div.para4 table tr td{
+  text-align: center;  
+  border:1px solid #000;   
+  font-size: 13px;
+  color:#000;
+  padding:4px;
+}
+
+div.para5{
+  margin-top:5px;
+  margin-bottom:5px;
+  margin-left: 8px;
+}
+
+div.para5 p{ 
+  font-size: 13px;
+  font-weight: bold; 
+  text-align: justify;
+  padding:3px;
+}
+
+
+div.para5 table{
+  width:96%;
+  margin:auto;
+}
+div.para5 table tr th{
+  text-align: left;
+  padding-left: 5px;
+  border:1px solid #000; 
+  font-size: 13px;  
+}
+
+div.para5 table tr td{
+  text-align: center;  
+  border:1px solid #000;   
+  font-size: 12px;
+  color:#000;  
+  padding:2px;
+}
+
+div.para5 table tr td.lefalig{
+  text-align: left;
+  padding-left: 5px;
+  border:1px solid #000; 
+  font-size: 13px; 
+}
+
+div.para5 table tr td.lefalig1{
+  text-align: center;
+  padding-left: 5px;
+  border:1px solid #000; 
+  font-size: 13px; 
+}
+
+
+
+div.interval{
+  width:50%;
+  float:left;
+  padding-left: 6px;
+}
+
+div.grade{
+  width:49%;
+  float:left;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+div.grade table tr td.lefaligg{
+  text-align: left;
+  padding-left: 5px;   
+  font-size: 16px;
+  font-weight: bold;  
+}
+
+div.para6{
+  margin-top:8px;
+}
+
+div.para6 table{
+  width:98%;
+  margin:auto;
+}
+
+div.para6 table td{
+  width:98%;  
+}
+
+footer{width:100%;}
+div.keys{width:100%; padding:4px;}
+div.keys td{ font-size: 14px; font-weight: bold; }
+
+thead { display: table-row-group; }
+
+tr {page-break-inside: avoid; }
+
+
+@media all {
+ .container  { overflow: hidden;}
+
+thead { display: table-row-group; }
+
+tr {page-break-inside: avoid; }
+
+}
+
+@media print {
+ .container  { display: block; page-break-before: always; }
+}
